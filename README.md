@@ -1,4 +1,10 @@
 # Heat-Conduction
 
-`git clone repo`
+1. define N
+2. 
+```
+git clone repo
 g++ .\main.cpp
+.\.exe
+```
+3.
