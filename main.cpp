@@ -1,7 +1,6 @@
 #include <iostream>
 #include <math.h>
 #include <fstream>
-//#include "write.h"
 #define PI 3.1415926
 #define N 11
 using namespace std;
@@ -41,21 +40,13 @@ int main() {
 				residual = residual + abs(m_grid[i][j] - temp);
 			}
 		}
-
-		if (1) {
-			cout << "iterations:	" << iterations ;
-			cout << "	residual:	" << residual << endl;
-		}
+	
+		cout << "iterations:	" << iterations ;
+		cout << "	residual:	" << residual << endl;
 
 	}
-
-
-	if (1) {
-		cout << "iterations:	" << iterations << endl;
-		cout << "residual:	" << residual << endl;
-		write(&m_grid[0][0], m_no, m_no);
-	}
-
+	
+    write(&m_grid[0][0], m_no, m_no);
 	return 0;
 }
 
