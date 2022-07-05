@@ -2,7 +2,7 @@
 #include <math.h>
 #include <fstream>
 #define PI 3.1415926
-#define N 41 //mesh size
+#define N 81 //mesh size
 using namespace std;
 
 void write(double* a, int x, int y);
