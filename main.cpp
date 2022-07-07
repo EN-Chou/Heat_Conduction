@@ -1,3 +1,4 @@
+// Copyright(c) 2021, Yi-En Chou
 #include <iostream>
 #include <math.h>
 #include <fstream>
