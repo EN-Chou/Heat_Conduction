@@ -1,4 +1,4 @@
-# Heat-Conduction
+# Heat_Conduction
 
 1. Define N
 2. Open terminal 
